@@ -10,22 +10,22 @@ public class PetitPrince0 implements Sujet{
 	private int cpt;
 	
 	public PetitPrince0() {
-		
+		this.console = new ConsoleJavaBoy(this);
 	}
 	
 	@Override
 	public String getNom() {
-		// TODO Auto-generated method stub
-		return null;
+		return this.nom;
 	}
 	@Override
 	public int getArgent() {
-		// TODO Auto-generated method stub
-		return 0;
+		return this.argent;
 	}
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
+		this.cpt++;
+		this.console.parler("[");
+		this.console.seDirigerVers(0);
 		
 	}
 	
