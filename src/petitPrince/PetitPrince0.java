@@ -25,8 +25,7 @@ public class PetitPrince0 implements Sujet{
 	public void run() {
 		this.cpt++;
 		this.console.parler("[");
-		this.console.seDirigerVers(0);
-		
+		this.console.seDirigerVers(0);	
 	}
 	
 	
